@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		924960C12826BC940085D810 /* WaterBalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960C02826BC940085D810 /* WaterBalanceApp.swift */; };
+		924960C32826BC940085D810 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960C22826BC940085D810 /* ContentView.swift */; };
+		924960C52826BC9B0085D810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924960C42826BC9B0085D810 /* Assets.xcassets */; };
+		924960C82826BC9B0085D810 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924960C72826BC9B0085D810 /* Preview Assets.xcassets */; };
+		924960CF2826BD660085D810 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960CE2826BD660085D810 /* GoalView.swift */; };
+		924960D128277D9B0085D810 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960D028277D9B0085D810 /* ReminderView.swift */; };
+		924960D3282782CE0085D810 /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960D2282782CE0085D810 /* CalculateView.swift */; };
+		924960D5282785D70085D810 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960D4282785D70085D810 /* HistoryView.swift */; };
+		924960D7282791A70085D810 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960D6282791A70085D810 /* EditView.swift */; };
+		924960D9282795AE0085D810 /* DrinkFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960D8282795AE0085D810 /* DrinkFirstView.swift */; };
+		924960DB282798EE0085D810 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960DA282798EE0085D810 /* DrinkView.swift */; };
+		924960DD2827A1AD0085D810 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924960DC2827A1AD0085D810 /* CircleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		924960BD2826BC940085D810 /* WaterBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924960C02826BC940085D810 /* WaterBalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceApp.swift; sourceTree = "<group>"; };
+		924960C22826BC940085D810 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		924960C42826BC9B0085D810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924960C72826BC9B0085D810 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		924960CE2826BD660085D810 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalView.swift; sourceTree = "<group>"; };
+		924960D028277D9B0085D810 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		924960D2282782CE0085D810 /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
+		924960D4282785D70085D810 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		924960D6282791A70085D810 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		924960D8282795AE0085D810 /* DrinkFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkFirstView.swift; sourceTree = "<group>"; };
+		924960DA282798EE0085D810 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		924960DC2827A1AD0085D810 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924960BA2826BC940085D810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		924960B42826BC940085D810 = {
+			isa = PBXGroup;
+			children = (
+				924960BF2826BC940085D810 /* WaterBalance */,
+				924960BE2826BC940085D810 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924960BE2826BC940085D810 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924960BD2826BC940085D810 /* WaterBalance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924960BF2826BC940085D810 /* WaterBalance */ = {
+			isa = PBXGroup;
+			children = (
+				924960C02826BC940085D810 /* WaterBalanceApp.swift */,
+				924960C22826BC940085D810 /* ContentView.swift */,
+				924960DC2827A1AD0085D810 /* CircleView.swift */,
+				924960DA282798EE0085D810 /* DrinkView.swift */,
+				924960D8282795AE0085D810 /* DrinkFirstView.swift */,
+				924960D6282791A70085D810 /* EditView.swift */,
+				924960D4282785D70085D810 /* HistoryView.swift */,
+				924960D2282782CE0085D810 /* CalculateView.swift */,
+				924960D028277D9B0085D810 /* ReminderView.swift */,
+				924960CE2826BD660085D810 /* GoalView.swift */,
+				924960C42826BC9B0085D810 /* Assets.xcassets */,
+				924960C62826BC9B0085D810 /* Preview Content */,
+			);
+			path = WaterBalance;
+			sourceTree = "<group>";
+		};
+		924960C62826BC9B0085D810 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				924960C72826BC9B0085D810 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924960BC2826BC940085D810 /* WaterBalance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924960CB2826BC9B0085D810 /* Build configuration list for PBXNativeTarget "WaterBalance" */;
+			buildPhases = (
+				924960B92826BC940085D810 /* Sources */,
+				924960BA2826BC940085D810 /* Frameworks */,
+				924960BB2826BC940085D810 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBalance;
+			productName = WaterBalance;
+			productReference = 924960BD2826BC940085D810 /* WaterBalance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924960B52826BC940085D810 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					924960BC2826BC940085D810 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 924960B82826BC940085D810 /* Build configuration list for PBXProject "WaterBalance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 924960B42826BC940085D810;
+			productRefGroup = 924960BE2826BC940085D810 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924960BC2826BC940085D810 /* WaterBalance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924960BB2826BC940085D810 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924960C82826BC9B0085D810 /* Preview Assets.xcassets in Resources */,
+				924960C52826BC9B0085D810 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924960B92826BC940085D810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924960C32826BC940085D810 /* ContentView.swift in Sources */,
+				924960D5282785D70085D810 /* HistoryView.swift in Sources */,
+				924960D9282795AE0085D810 /* DrinkFirstView.swift in Sources */,
+				924960D3282782CE0085D810 /* CalculateView.swift in Sources */,
+				924960CF2826BD660085D810 /* GoalView.swift in Sources */,
+				924960D7282791A70085D810 /* EditView.swift in Sources */,
+				924960DD2827A1AD0085D810 /* CircleView.swift in Sources */,
+				924960DB282798EE0085D810 /* DrinkView.swift in Sources */,
+				924960D128277D9B0085D810 /* ReminderView.swift in Sources */,
+				924960C12826BC940085D810 /* WaterBalanceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		924960C92826BC9B0085D810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		924960CA2826BC9B0085D810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924960CC2826BC9B0085D810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
+				DEVELOPMENT_TEAM = BYNPY4J75T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = merey.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924960CD2826BC9B0085D810 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
+				DEVELOPMENT_TEAM = BYNPY4J75T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = merey.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924960B82826BC940085D810 /* Build configuration list for PBXProject "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924960C92826BC9B0085D810 /* Debug */,
+				924960CA2826BC9B0085D810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924960CB2826BC9B0085D810 /* Build configuration list for PBXNativeTarget "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924960CC2826BC9B0085D810 /* Debug */,
+				924960CD2826BC9B0085D810 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924960B52826BC940085D810 /* Project object */;
+}
